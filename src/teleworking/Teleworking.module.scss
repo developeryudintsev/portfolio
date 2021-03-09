@@ -1,0 +1,31 @@
+@import './../common/styles/sass/variables.scss';
+@import './../common/styles/sass/mixins.scss';
+.TeleworkingBlock {
+    background-color: $backgroundColor2;
+    .form {
+        border: $textColor3 1px solid;
+        background-color: $backgroundColor2;
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+        .title {
+            text-align: center;
+            color: $textColor2;
+        }
+        .button {
+            margin: 0 auto;
+            padding: 5px;
+            color: $textColor2;
+            border: 2px solid white;
+            width: 50px;
+            height: 25px;
+        }
+        .p {
+            height: 10px;
+        }
+    }
+    .prokladka{
+        @include prokladka();
+        @include prokladka();
+    }
+}

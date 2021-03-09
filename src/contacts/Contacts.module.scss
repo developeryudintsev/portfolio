@@ -1,0 +1,60 @@
+@import './../common/styles/sass/variables.scss';
+@import './../common/styles/sass/mixins.scss';
+
+.ContactsBlock {
+  background-color: $backgroundColor2;
+  margin-top: -20px;
+
+  .title {
+    text-align: center;
+    color: $textColor2;
+    background-color: $backgroundColor3;
+    width: 100%;
+    height: 35px;
+  }
+
+  .prokladka {
+    @include prokladka()
+  }
+
+  .form {
+    background-color: $backgroundColor2;
+    border: 1px solid $backgroundColor4;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+
+    .input {
+      margin-top: 15px;
+      width: 80%;
+    }
+
+    .input {
+      margin-top: 15px;
+      width: 80%;
+    }
+
+    .input {
+      margin-top: 15px;
+      width: 80%;
+    }
+
+    .textarea {
+      margin-bottom: 15px;
+    }
+  }
+
+  .button {
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+    color: $textColor2;
+    border: 2px solid $backgroundColor1;
+    width: 50px;
+    height: 25px;
+  }
+
+  .prokladka {
+    @include prokladka()
+  }
+}

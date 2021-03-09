@@ -1,0 +1,37 @@
+@import './../common/styles/sass/variables';
+.mainBlock {
+    .mainContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: $backgroundColor2;
+        .text {
+            width: 300px;
+            height: 326px;
+            background-color: $backgroundColor2;
+            color: white;
+            .developerText {
+                color: $textColor3;
+            }
+            .reactPng {
+                width: 130px;
+                margin-left: 25%;
+            }
+        }
+        .pastePhoto {
+            width: 387px;
+            margin-top: 10px;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

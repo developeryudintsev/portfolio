@@ -1,0 +1,15 @@
+@import './../common/styles/sass/variables';
+
+.nav {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 65px;
+
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    color: $textColor1;
+  }
+}

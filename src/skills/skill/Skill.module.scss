@@ -1,0 +1,22 @@
+@import './../../common/styles/sass/variables.scss';
+.skill {
+    width: 250px;
+    background-color: $backgroundColor2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    color: $backgroundColor1;
+    border:solid 1px $textColor3;
+    .icon{
+        width:60px;
+        height:5px;
+        background-color: $backgroundColor4;
+    }
+    .title{
+        color: $textColor2;
+    }
+}
+
+

@@ -1,0 +1,77 @@
+@import './../common/styles/sass/variables.scss';
+@import './../common/styles/sass/mixins.scss';
+.ContactsBlock {
+    background-color: $backgroundColor2;
+    margin-top: -20px;
+    .title {
+        text-align: center;
+        color: $textColor3;
+    }
+    .form {
+        background-color: $backgroundColor3;
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        .content {
+            width: 63px;
+            height: 33px;
+            background-color: $backgroundColor2;
+            flex-wrap: wrap;
+        }
+        .content {
+            width: 63px;
+            height: 33px;
+            background-color: $backgroundColor2;
+            flex-wrap: wrap;
+        }
+        .content {
+            width: 63px;
+            height: 33px;
+            background-color: $backgroundColor2;
+            flex-wrap: wrap;
+        }
+        .content {
+            width: 63px;
+            height: 33px;
+            background-color: $backgroundColor2;
+            flex-wrap: wrap;
+        }
+    }
+    .button {
+        text-align: center;
+        margin: 0 auto;
+        padding: 5px;
+        color: $textColor3;
+    }
+
+    .prokladka{
+        //height: 20px;
+        //width: 100%;
+        //background-color: $backgroundColor2;
+        @include prokladka()
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
