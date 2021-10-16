@@ -1,15 +1,23 @@
 @import './../common/styles/sass/variables';
 
 .nav {
+  z-index: 100;
   width: 400px;
   display: flex;
   justify-content: space-between;
   margin-right: 65px;
+  cursor: pointer;
 
   a {
     text-decoration: none;
     font-size: 22px;
     font-weight: 600;
     color: $textColor1;
+    &:hover{
+      color:deeppink;
+    }
+  }
+  .active{
+    color:deeppink;
   }
 }

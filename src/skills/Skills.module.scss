@@ -2,7 +2,8 @@
 @import './../common/styles/sass/mixins.scss';
 
 .skillsBlock {
-  background-color: $backgroundColor2;
+  //background-color: $backgroundColor2;
+  background-image: url(./../assets/img/fon.jpg);
 
   .skillsContainer {
     display: flex;

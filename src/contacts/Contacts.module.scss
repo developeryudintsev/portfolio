@@ -2,7 +2,8 @@
 @import './../common/styles/sass/mixins.scss';
 
 .ContactsBlock {
-  background-color: $backgroundColor2;
+  background-image: url(./../assets/img/fon.jpg);
+  //background-color: $backgroundColor2;
   margin-top: -20px;
 
   .title {
